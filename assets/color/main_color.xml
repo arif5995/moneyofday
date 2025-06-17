@@ -1,0 +1,31 @@
+<xml>
+    <color name="purple">#7F3DFF</color>
+    <color name="white_purple">#EEE5FF</color>
+    <color name="white_background">#FFFFFF</color>
+    <color name="lightGrey">#F1F1FA</color>
+    <color name="green">#00A86B</color>
+    <color name="red">#FD3C4A</color>
+    <color name="blue">#0077FF</color>
+    <color name="yellow">#FCAC12</color>
+    <color name="grey">#F6F6F6</color>
+    <color name="greytipis">#FCFCFC</color>
+    <color name="bacground_card">#FCFCFC</color>
+    <color name="bacground_yellow">#FFF6E5</color>
+    <color name="bacground_yellow_icon">#FCEED4</color>
+    <color name="bacground_red_icon">#FDD5D7</color>
+    <color name="bacground_green_icon">#CFFAEA</color>
+    <color name="bacground_blue_icon">#BDDCFF</color>
+    <color name="bacground_grey_icon">#F1F1FA</color>
+    <color name="icon_black">#212325</color>
+    <color name="icon_grey">#C6C6C6</color>
+    <color name="icon_white">#DADADA</color>
+    <color name="text_grey">#91919F</color>
+    <color name="text_black">#212325</color>
+    <color name="text_white">#FCFCFC</color>
+    <color name="text_purple">#7F3DFF</color>
+    <color name="text_hint_grey">#91919F</color>
+    <color name="text_label_dark">#212325</color>
+    <color name="text_dark_grey">#414141</color>
+    <color name="gradient1">#FFF6E5</color>
+    <color name="gradient2">#F8EDD800</color>
+</xml>
