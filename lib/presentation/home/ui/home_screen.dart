@@ -215,8 +215,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               .watch<HomeCubit>()
                               .state
                               .totalIncome
-                              .data
-                              .toString(),
+                              .data ?? 0,
                         ),
                         DisplayFinancialCustom(
                           background: ColorName.red,
@@ -227,8 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               .watch<HomeCubit>()
                               .state
                               .totalExpanse
-                              .data
-                              .toString(),
+                              .data ?? 0,
                         ),
                       ],
                     ),

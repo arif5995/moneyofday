@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:monday/utils/currency/currency_format.dart';
 import 'package:monday/utils/gen/colors.gen.dart';
 import 'package:monday/utils/widget/text_style.dart';
 
@@ -8,7 +9,7 @@ class DisplayFinancialCustom extends StatelessWidget {
   final Color background;
   final SvgPicture assets;
   final String title;
-  final String price;
+  final int price;
 
   const DisplayFinancialCustom(
       {super.key,
@@ -46,7 +47,7 @@ class DisplayFinancialCustom extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               TextStyles.body2(text: title, color: Colors.white),
-              TextStyles.header3(text: price, color: Colors.white, fontWeight: FontWeight.bold),
+              TextStyles.body4(text: CurrencyFormat.formatNumberToSpecificK(price), color: Colors.white),
             ],
           )
         ],

@@ -72,6 +72,7 @@ class TextStyles {
     return Text(
       text,
       textAlign: TextAlign.start,
+      maxLines: 1,
       style: TextStyle(
           fontWeight: FontWeight.normal,
           fontSize: 13.sp,

@@ -34,7 +34,7 @@ class ItemTransaction extends StatelessWidget {
       child: Ink(
         width: 336.w,
         height: 89.h,
-        padding: const EdgeInsets.all(17),
+        padding: const EdgeInsets.symmetric(vertical: 17),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(24.r),
             color: ColorName.greytipis),
@@ -55,7 +55,7 @@ class ItemTransaction extends StatelessWidget {
             ),
             SizedBox(width: 10.w,),
             Expanded(
-              flex: 3,
+              flex: 4,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
